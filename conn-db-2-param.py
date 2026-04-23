@@ -6,7 +6,7 @@ DB_CONFIG = {
     "host": "127.0.0.1",
     "user": "NOME_UTENTE_DATABASE",
     "password": "PASSWORD_DATABASE",
-    "database": "4CTL",
+    "database": "NOME_DATABASE", # lo stesso del NOME_UTENTE
     "port": 3307,
     "cursorclass": pymysql.cursors.Cursor,
     "connect_timeout": 5,
