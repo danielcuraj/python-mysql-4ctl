@@ -2,17 +2,17 @@
 ## Domande
 - Qual è la differenza tra una query scritta direttamente nel codice e una query parametrizzata?
 ```text
-
+La differenza risiede nel modo in cui vengono gestiti i valori. Nelle query scritte direttamente, i dati sono concatenati come testo all'interno dell'istruzione SQL. Nelle query parametrizzate, invece, il comando SQL rimane separato dai dati, che vengono trasmessi al database come variabili distinte. 
 ```
 
 - Qual è il vantaggio di avere funzioni di supporto come esegui_select() ed esegui_dml()?
 ```text
-
+Centralizzano la logica: esegui_dml() permette di gestire con un'unica funzione diverse operazioni di modifica (come insert e delete), mentre esegui_select() rende il codice più pulito, leggibile e riutilizzabile.
 ```
 
 - In che senso i tre file non sono alternative equivalenti, ma evoluzioni progressive dello stesso codice?
 ```text
-
+I tre file non sono alternative equivalenti perchè sono tre esempi di levelli diversi e non semplici varianti: si parte da un codice base con dati fissi (hardcoded), si evolve verso l'uso di variabili tramite query parametriche, per arrivare infine a una struttura logica superiore, ordinata e ottimizzata.
 ```
 
 
